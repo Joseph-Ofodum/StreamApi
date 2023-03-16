@@ -12,6 +12,7 @@ public class Exercise1 {
         // TODO: Write code here
 
         // Print numbers from intNumbersStream that are less than 5
+        StreamSources.intNumbersStream().filter(integer -> integer < 5).forEach(e -> System.out.println(e));
         // TODO: Write code here
 
         // Print the second and third numbers in intNumbersStream that's greater than 5
